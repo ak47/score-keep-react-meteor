@@ -9,7 +9,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <TitleBar title={this.props.title} subtitle="I am worthy to live" />
+        <TitleBar title={this.props.title} subtitle="scores for nothing" />
         <div className="wrapper">
           <PlayerList players={this.props.players} />
           <AddPlayer score={10} />
